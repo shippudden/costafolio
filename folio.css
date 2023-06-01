@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serifs;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 30rem;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+}
+
+.work a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.work a:hover{
+    text-decoration: line-through;
+}
+
+.About a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.About a:hover{
+    text-decoration: line-through;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.contact a:hover{
+    text-decoration: line-through;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 26rem 3rem 29rem;
+}
+
+.left-items{
+    padding: 5rem 5rem 5rem 3rem;
+    margin-right: 1rem;
+    margin-bottom: 0.25rem;
+    background-image: linear-gradient(360deg, orange, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.heading{
+    font-size: 2rem;
+    padding-bottom: 15rem;
+}
+
+.lorem{
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding-top: 2.5rem;
+}
+
+.bottom-items{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+
+button{
+    padding: 1rem 2.5rem;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.double-image{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin: 3rem 29rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    position: absolute;
+    left: 32rem;
+    bottom: -7rem;
+    color: #fff;
+}
+
+h3{
+    position: absolute;
+    left: 85rem;
+    bottom: -7rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.two-containers{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin: 0 29rem;
+}
+
+h4{
+    position: absolute;
+    left: 32rem;
+    bottom: -75rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+h6{
+    position: absolute;
+    left: 85rem;
+    bottom: -75rem;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.last-two{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin: 2rem 29rem;
+}
+
+h5{
+    position: absolute;
+    left: 32rem;
+    font-size: 3rem;
+    bottom: -143rem;
+    color: #fff;
+}
+
+.paragraph-text{
+    position: absolute;
+    left: 85rem;
+    bottom: -143rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.footer-section{
+    background-image: linear-gradient(360deg, orange, yellow);
+    padding: 5rem 25rem;
+    margin: 3rem 29rem;
+    border: none;
+    border-radius: 20px;
+}
+
+.work-together{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-left: 8rem;
+    padding-bottom: 0.5rem;
+}
+
+.reach-out{
+    font-size: 1.5rem;
+    margin-left: 4rem;
+}
+
+.contact-section{
+    margin-left: 10rem;
+    padding-top: 10rem;
+}
+
+.social-medial{
+    padding-left: -4rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    column-gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.powered{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+}
+
+.cont{
+    margin-left: 7.5rem;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    margin: 0 29rem;
+}
+
+.description-container{
+    background-image: linear-gradient(90deg, red, orange);
+    border-radius: 20px;
+    padding: 3rem 5rem 1rem 5rem;
+}
+
+.outcast{
+    font-size: 1.3rem;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    background-image: linear-gradient(360deg, orange, yellow);
+    margin: 2rem 29rem;
+    padding: 3rem 5rem 0 3rem;
+    border-radius: 25px;
+}
+
+form input, form textarea{
+    padding: 1rem 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    width: 180%;
+}
+
+.cont-me{
+    padding-bottom: 1.5rem;
+}
+
+.lorem-ipsum{
+    padding-bottom: 1.5rem;
+}
+
+.other-side{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+}
+
+.button{
+    margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 390px){
+    
+}
+
